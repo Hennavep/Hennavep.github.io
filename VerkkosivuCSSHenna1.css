@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+.header {
+  padding: 70px;
+  text-align: center;
+  background-color: black;
+  color: rgb(144, 117, 63);
+  font-size: 30px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(18, 18, 18)
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(199, 185, 185);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: darkgray;
+    color:rgb(18, 18, 18);
+    border-radius: 20px;
+}
+p {font-family: Georgia;}
+h1 {font-family: Georgia;}
+h2 {font-family: Georgia;}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+.slidepic {
+  max-height: 550px;
+  width: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.textslide {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+.palkki {
+    color: rgb(144, 117, 63);
+    background-color: rgb(199, 185, 185);
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.jakokolmeen {
+    background: #989898;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.jakokolmeen > .jako {
+    flex: 1 1 30%;
+    height: 400px;
+}
+
+.jako {
+  background-color: rgb(18, 18, 18);
+  border: 1px solid rgb(144, 117, 63);
+  text-align: center;
+  color: rgb(144, 117, 63);
+}
+.tekstiom {
+  text-align: left;
+}
+.linkkivari {
+  color: rgb(199, 185, 185);  
+}
+.yleinen {
+  color: rgb(144, 117, 63);  
+}
+
