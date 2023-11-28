@@ -1,54 +1,43 @@
 body {
+   
 }
 
 h1 {
-    background-color: rgb(159, 129, 109);
-    color:bisque;
+    background-color: orange;
 }
 h2 {
-    color: rgb(227, 151, 100);
-}
-
-h3 {
-    color: rgb(143, 98, 69);
+    color: chocolate;
 }
 .esimerkki {
-    color: red;
+    color:red;
 }
 .hankalaa {
     color: darkred;
+}
+.esimerkki-box {
+    background-color: blue;
+    border: 1px solid; 
+    padding: 5px;
+
+}
+td {
+    color:black;
 }
 
 .jsharkkatyyli {
     display: none;
 }
 
-.esimerkki-box {
-    background-color: rgb(243, 212, 212);
-    border: 1px solid;
-    padding: Spx;
-}
-
-.spanni {
-    color: rgb(171, 37, 0)
-}
-
-table {
-    width: 300px;
-
-    border-collapse: collapse;
-}
 
 table tr td {
     border: solid black 1px;
-    padding-left: 5px;
-    border-spacing: 0px;
+    margin: 5px;
+    border-collapse: collapse;
 }
 
-td {
+td{
     color: black;
 }
-
 tbody tr:nth-child(odd) {
     background-color: gray;
 }
