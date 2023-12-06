@@ -47,7 +47,7 @@ h2 {font-family: Georgia;}
 }
 .slidepic {
   max-height: 550px;
-  max-width: 100%;
+  width: auto;
 }
 
 .textslide {
