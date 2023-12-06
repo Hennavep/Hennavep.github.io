@@ -46,7 +46,6 @@ h2 {font-family: Georgia;}
   display: none;
 }
 .slidepic {
-  height: auto;
   max-width: 800px;
   object-fit: cover;
 }
