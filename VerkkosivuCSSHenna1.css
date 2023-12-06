@@ -48,6 +48,7 @@ h2 {font-family: Georgia;}
 .slidepic {
   height: 550px;
   max-width: 800px;
+  object-fit: cover;
 }
 
 .textslide {
