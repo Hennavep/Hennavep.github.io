@@ -46,9 +46,8 @@ h2 {font-family: Georgia;}
   display: none;
 }
 .slidepic {
-  max-width: 800px;
-  height: 580px;
-  object-fit: cover;
+  max-width: 700px;
+  max-height: 580px;
 }
 
 .textslide {
